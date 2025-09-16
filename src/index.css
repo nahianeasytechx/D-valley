@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.slick-dots {
+    bottom: 14px;
+}
+
+/* Large screen (>= 1024px) overrides */
+@media (min-width: 1024px) {
+  .slick-dots {
+bottom: -25px;
+  }
+}
