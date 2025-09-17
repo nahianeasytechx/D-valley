@@ -1,5 +1,5 @@
 import React from 'react';
-// import dailylist1 from "../assets/dailylist.png"
+import dailylist1 from "../assets/dailylist1.png"
 import dailylist2 from "../assets/dailylist2.png"
 
 const SectionThree = () => {
@@ -20,7 +20,7 @@ chores. And <span className='text-[#60C3AD]'>tear it up</span>
           {/* IMAGE BLOCK */}
           <div className="relative py-10 lg:py-0 w-full lg:w-[45%] flex justify-center items-center gap-x-2 order-2 ">
             <div className="w-1/2">
-              {/* <img src={dailylist1} alt="bestlife1.png" /> */}
+        <img src={dailylist1} alt="" />
             </div>
 <div className="w-1/2 absolute left-[50%] top-[30%]">
 
