@@ -1,8 +1,22 @@
 @import "tailwindcss";
 
 
+body{
+  font-family: "DM Sans", sans-serif;
+}
 .slick-dots {
     bottom: 14px;
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 3s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-up.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Large screen (>= 1024px) overrides */

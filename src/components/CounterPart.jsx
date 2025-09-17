@@ -8,14 +8,14 @@ const CounterPart = () => {
     <div className="container mx-auto py-8">
       <div className="flex ">
         <div className="w-1/3 shadow-xl flex flex-wrap lg:space-x-2  justify-center rounded-xl lg:shadow-none lg:rounded-none">
-      <img src={cities} alt="citiesicon.png" className="mr-2" />
-          <p className="text-2xl lg:text-[30px] text-center lg:text-start lg:text-xl mt-2">
-            <CountUp end={15} /> + Cities
+      <img src={cities} alt="citiesicon.png"  className="mr-2"/>
+          <p className="text-2xl lg:text-[30px]  text-center lg:text-xl mt-2">
+            <CountUp end={15} /> + Residences
           </p>
         </div>
         <div className="w-1/3 shadow-xl flex flex-wrap lg:space-x-2  justify-center rounded-xl lg:shadow-none lg:rounded-none">
       <img src={residencies} alt="citiesicon.png"  className="mr-2"/>
-          <p className="text-2xl lg:text-[30px] text-center lg:text-xl mt-2">
+          <p className="text-2xl lg:text-[30px]  text-center lg:text-xl mt-2">
             <CountUp end={450} /> + Residences
           </p>
         </div>
