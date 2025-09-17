@@ -8,16 +8,17 @@ body{
     bottom: 14px;
 }
 
-.fade-in-up {
-  opacity: 0;
-  transform: translateY(100px);
-  transition: opacity 3s ease-out, transform 0.8s ease-out;
-}
+        .fade-in-element {
+          opacity: 0;
+          transform: translateY(-70px);
+          transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        
+        .fade-in-visible {
+          opacity: 1;
+          transform: translateY(0);
+        }
 
-.fade-in-up.show {
-  opacity: 1;
-  transform: translateY(0);
-}
 
 /* Large screen (>= 1024px) overrides */
 @media (min-width: 1024px) {
