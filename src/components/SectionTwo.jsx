@@ -4,7 +4,7 @@ import room2 from "../assets/room2.avif"
 
 const SectionTwo = () => {
   return (
-    <div className="bg-[#f7f7f7]">
+    <div className="bg-[#60C3AD]">
       <div className="container mx-auto ">
         {/* Flex wrapper */}
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">
