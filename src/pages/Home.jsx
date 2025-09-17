@@ -6,6 +6,7 @@ import SectionTwo from "../components/SectionTwo";
 import SectionThree from "../components/SectionThree";
 import SectionFive from "../components/SectionFive";
 import SectionFour from "../components/SectionFour";
+import SectionSix from "../components/SectionSix";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
 <SectionThree/>
 <SectionFour/>
 <SectionFive/>
+<SectionSix/>
 
     </>
   );
