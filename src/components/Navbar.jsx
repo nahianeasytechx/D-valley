@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../assets/Stanza_Living_Logo_3x.png&w=3840&q=75.png";
-import logo2 from "../assets/white logo.png";
+import logo from "../assets/Dvalley Logo Branding Plan.png";
+import logo2 from "../assets/Dvalley Logo Branding Plan.png";
 import { TfiAngleUp } from "react-icons/tfi";
 
 const Navbar = () => {
@@ -12,7 +12,9 @@ const Navbar = () => {
           <img
             src={logo2}
             alt="logo"
-            className="w-[109px] h-14 img-fluid"
+            className=" img-fluid"
+            width={120}
+
           />
         </a>
       </div>
@@ -23,7 +25,8 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            className="w-[109px] h-14 img-fluid"
+            className=" img-fluid"
+            width={150}
           />
         </a>
       </div>
@@ -32,7 +35,7 @@ const Navbar = () => {
       <div className="hidden md:flex lg:mt-3">
         <span className="me-8 font-medium relative cursor-pointer 
           after:content-[''] after:absolute after:left-0 after:bottom-[15px] 
-          after:w-full after:h-[2px] after:bg-[#60c3ad] after:scale-x-0 
+          after:w-full after:h-[2px] after:bg-[#2a308c] after:scale-x-0 
           hover:after:scale-x-100 after:transition-transform after:duration-300 
           after:origin-left">
           Explore Residences

@@ -16,7 +16,7 @@ const Services = ({ img, title, description, onClick }) => {
       />
 
       {/* Gradient overlay (only appears on hover) */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#3fa892] to-[#183f35] opacity-0 group-hover:opacity-70 transition-opacity duration-500"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-[#2a308c] to-[#183f35] opacity-0 group-hover:opacity-70 transition-opacity duration-500"></div>
 
       {/* Always visible title + arrow */}
       <div className="absolute bottom-4 left-6 flex items-center gap-3 text-white z-30">

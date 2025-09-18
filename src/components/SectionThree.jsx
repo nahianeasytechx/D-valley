@@ -13,7 +13,7 @@ const SectionThree = () => {
           <div className="w-full order-1 lg:hidden">
             <h1 className='text-2xl md:text-3xl text-center font-bold'>
         Take your daily list of <br />
-chores. And <span className='text-[#60C3AD]'>tear it up</span>
+chores. And <span className='text-[#2a308c]'>tear it up</span>
             </h1>
           </div>
 
@@ -39,7 +39,7 @@ chores. And <span className='text-[#60C3AD]'>tear it up</span>
           <div className="hidden lg:flex w-[45%] py-5 flex-col justify-center items-start order-1">
             <h1 className='text-4xl pr-32 lg:pr-2 text-start font-bold'>
              Take your daily list of <br />
-chores. And <span className='text-[#60C3AD]'>tear it up</span>
+chores. And <span className='text-[#2a308c]'>tear it up</span>
             </h1>
             <p className="text-start text-[#4E5253] text-lg mt-5">
            You have better things to do than wash your clothes, clean up your room and cook your meals. So our team of pros will do them all for you.

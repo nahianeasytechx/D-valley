@@ -7,19 +7,19 @@ import fwbwicon from "../assets/fwbwicon.png"
 const SectionSix = () => {
   return (
     <>
-      <div className={`bg-gradient-to-r from-[#183f35] to-[#60C3AD]`}>
+      <div className={`bg-gradient-to-r from-[#05093ace] to-[#2a308c]`}>
         <div className="container mx-auto  py-10">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-[45%] flex flex-col justify-center">
               <h1 className="py-20 text-4xl md:text-4xl lg:text-5xl text-bold text-center lg:text-start font-bold">
                 Always have us
                 <br />
-                <span className="text-[#60C3AD]">at your fingertips</span>
+                <span className="text-white">at your fingertips</span>
               </h1>
 
-              <div className="overflow-y-scroll h-36 no-scrollbar">
-                <div className="py-16 text-white">
-                  <p className="textxl lg:text-2xl font-medium">
+              <div className="overflow-y-scroll h-36 no-scrollbar text-center lg:text-left">
+                <div className="py-16 text-white ">
+                  <p className="text-xl lg:text-2xl font-semibold">
                     Tell us what you crave
                   </p>
                   <p className="lg:text-xl pt-5">
@@ -29,7 +29,7 @@ const SectionSix = () => {
                   </p>
                 </div>
                 <div className="py-16 text-white">
-                  <p className="textxl lg:text-2xl font-medium">
+                  <p className="text-xl lg:text-2xl font-semibold">
                     All payments and dues, in one place
                   </p>
                   <p className="lg:text-xl pt-5">
@@ -40,7 +40,7 @@ const SectionSix = () => {
                   </p>
                 </div>
                 <div className="py-16 text-white">
-                  <p className="textxl lg:text-2xl font-medium">
+                  <p className="text-xl lg:text-2xl font-semibold">
                     Be heard. Without saying a word
                   </p>
                   <p className="lg:text-xl pt-5">
@@ -56,7 +56,7 @@ const SectionSix = () => {
               <div className="mt-24 flex justify-center lg:justify-end ">
                 <div className="">
                   <div>
-                    <img src={phonebg} alt="" className="w-80 lg:w-90 xl:w-[90%] absolute top-32 lg:top-52  right-20 md:right-55  lg:-right-[30px] xl:top-36 xl:-right-24 bg-[#60C3AD] rounded-full rotate-infinite" />
+                    <img src={phonebg} alt="" className="w-80 lg:w-90 xl:w-[90%] absolute top-32 lg:top-52  right-20 md:right-55  lg:-right-[30px] xl:top-36 xl:-right-24 bg-[#424688] border border-white rounded-full rotate-infinite" />
                   </div>
                   <div className="relative">
                     {" "}

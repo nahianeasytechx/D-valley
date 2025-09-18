@@ -1,4 +1,4 @@
-import logo from "../assets/white logo.png"
+import logo from "../assets/Dvalley Logo Branding Plan.png"
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -8,30 +8,30 @@ const Footer = () => {
     <>
       <div className="bg-[#232728]">
         <div className="container mx-auto">
-          <div class="flex justify-center space-x-4 py-8 border-b-2 border-[#60C3AD] border-rounded">
-            <button class="px-4 py-2 text-xl font-semibold rounded  cursor-pointer text-white focus:bg-[#60C3AD]">
+          <div class="flex justify-center space-x-4 py-8 border-b-2 border-green-400 border-rounded">
+            <button class="px-4 py-2 text-xl font-semibold rounded  cursor-pointer text-white focus:bg-[#2a308c]">
            Dhanmondi
             </button>
-            <button class="px-4 py-2 text-xl font-semibold rounded  cursor-pointer text-white focus:bg-[#60C3AD]">
+            <button class="px-4 py-2 text-xl font-semibold rounded  cursor-pointer text-white focus:bg-[#2a308c]">
               Mirpur
             </button>
-            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#60C3AD]">
+            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#2a308c]">
              Uttara
             </button>
-            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#60C3AD]">
+            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#2a308c]">
              Ghushan
             </button>
-            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#60C3AD]">
+            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#2a308c]">
              Banani
             </button>
-            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#60C3AD]">
+            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#2a308c]">
              Paltan
             </button>
           </div>
 
           <div className="py-36 flex flex-wrap">
 <div className="w-1/6">
-<img src={logo} alt="" className="w-[50%]" />
+<img src={logo} alt="" className="w-[70%]" />
 </div>
 <div className="w-1/6">
 <ul className="text-white font-bold text-xl space-y-5">

@@ -17,7 +17,7 @@ const SectionFive = () => {
           <div className="w-full order-1 lg:hidden">
             <h1 className='text-2xl md:text-3xl text-center font-bold'>
             Don't come expecting <br />
-              from <span className='text-[#60C3AD]'>"hostel-PG food"</span>
+              from <span className='text-[#2a308c]'>"hostel-PG food"</span>
             </h1>
           </div>
 
@@ -44,7 +44,7 @@ const SectionFive = () => {
           <div className="hidden lg:flex w-[45%] py-5 flex-col justify-center items-start order-2">
             <h1 className='text-4xl pr-32 lg:pr-16 text-start font-bold'>
              Don't come expecting<br />
-              from <span className='text-[#60C3AD]'>"hostel-PG food"</span>
+              from <span className='text-[#2a308c]'>"hostel-PG food"</span>
             </h1>
             <p className="text-start text-[#4E5253] text-lg mt-5">
             Instead, bring along a big appetite for healthy, yummy meals. With flavours that have a local touch. And that, at the same time, take your taste buds on a journey back home.
