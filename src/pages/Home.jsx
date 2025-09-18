@@ -7,12 +7,14 @@ import SectionThree from "../components/SectionThree";
 import SectionFive from "../components/SectionFive";
 import SectionFour from "../components/SectionFour";
 import SectionSix from "../components/SectionSix";
+import SectionSeven from "../components/SectionSeven";
+import SectionEight from "../components/SectionEight";
 
 
 const Home = () => {
   return (
     <>
-      <Navbar />
+
       <Hero />
       <SectionOne/>
 <SectionTwo/>
@@ -20,6 +22,8 @@ const Home = () => {
 <SectionFour/>
 <SectionFive/>
 <SectionSix/>
+<SectionSeven/>
+<SectionEight/>
 
     </>
   );

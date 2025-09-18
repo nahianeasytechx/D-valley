@@ -56,6 +56,20 @@ animation: float 2s ease-in-out infinite;
   }
 }
 
+.marquee-container {
+  overflow: hidden; /* Hides content outside the container */
+  white-space: nowrap; /* Prevents text wrapping */
+}
+
+.marquee-text {
+  display: inline-block;
+  animation: marquee 10s linear infinite; /* Adjust duration and timing as needed */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); } /* Starts off-screen right */
+  100% { transform: translateX(-100%); } /* Ends off-screen left */
+}
 
 /* Large screen (>= 1024px) overrides */
 @media (min-width: 1024px) {
