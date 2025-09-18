@@ -18,7 +18,7 @@ const SectionEight = () => {
 </div>
 </div>
 <div className="flex justify-center">
-    <button className='bg-[#2a308c] py-3 px-5 text-[18px] text-white font-bold rounded-xl cursor-pointer hover:bg-[#3e48ca]'>Read More</button>
+    <button className='bg-[#669c0f] py-3 px-5 text-[18px] text-white font-bold rounded-xl cursor-pointer hover:bg-[#80bf1e]'>Read More</button>
 </div>
 </div>
   )

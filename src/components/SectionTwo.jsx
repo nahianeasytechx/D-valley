@@ -31,7 +31,7 @@ const SectionTwo = () => {
   }, []);
 
   return (
-    <div className={`bg-gradient-to-r from-[#1e2c08] to-[#80bf1e]`}>
+    <div className={`bg-[#80bf1e]`}>
       <div className="container mx-auto">
         {/* Flex wrapper */}
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">

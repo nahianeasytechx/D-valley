@@ -7,7 +7,7 @@ import fwbwicon from "../assets/fwbwicon.png"
 const SectionSix = () => {
   return (
     <>
-      <div className={`bg-gradient-to-r from-[#1e2c08] to-[#80bf1e]`}>
+      <div className={`bg-[#80bf1e]`}>
         <div className="container mx-auto  py-10">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-[45%] flex flex-col justify-center">

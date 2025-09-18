@@ -27,13 +27,13 @@ const SectionFour = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-[#80bf1e] to-[#1e2c08]">
+    <div className="bg-[#80bf1e]">
       <div className="container mx-auto">
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">
           {/* Mobile heading */}
           <div className="w-full order-1 lg:hidden">
             <h1 className="text-2xl md:text-3xl text-center font-bold">
-              Chill in a <span className="text-white">common area</span>
+              Chill in a <span className="text-[#80bf1e]">common area</span>
               <br />
               that's anything but common
             </h1>
@@ -58,7 +58,7 @@ const SectionFour = () => {
               ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-90"}`}
           >
             <h1 className="text-2xl md:text-3xl font-bold">
-              Chill in a <span className="text-white">common area</span>
+              Chill in a <span className="text-[#80bf1e]">common area</span>
               <br />
               that's anything but common
             </h1>
