@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import ErrorPage from "./pages/ErrorPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import WhatsAppFloatingButton from "./components/WhatsAppFloatingButton";
 function App() {
   return <>
   <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
     {/* {Error Page} */}
     <Route path="*" element= { <ErrorPage/> }/>
   </Routes>
+  <WhatsAppFloatingButton/>
   <Footer/>
   </BrowserRouter>
   </>;
