@@ -27,7 +27,7 @@ const SectionFour = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-[#2a308c] to-[#0b0d29c7]">
+    <div className="bg-gradient-to-r from-[#80bf1e] to-[#1e2c08]">
       <div className="container mx-auto">
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">
           {/* Mobile heading */}

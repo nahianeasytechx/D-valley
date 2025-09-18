@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="hidden md:flex lg:mt-3">
         <span className="me-8 font-medium relative cursor-pointer 
           after:content-[''] after:absolute after:left-0 after:bottom-[15px] 
-          after:w-full after:h-[2px] after:bg-[#2a308c] after:scale-x-0 
+          after:w-full after:h-[2px] after:bg-[#80bf1e] after:scale-x-0 
           hover:after:scale-x-100 after:transition-transform after:duration-300 
           after:origin-left">
           Explore Residences

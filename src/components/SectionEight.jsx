@@ -5,7 +5,7 @@ const SectionEight = () => {
   return (
 <div className="container mx-auto py-10">
 <div className="py-16">
-    <h1 className='text-center text-4xl font-bold leading-10'>The <span className='text-[#2a308c]'>spotlight</span> on us</h1>
+    <h1 className='text-center text-4xl font-bold leading-10'>The <span className='text-[#80bf1e]'>spotlight</span> on us</h1>
 <p className='text-center text-xl text-[#4e5253] leading-10'>We don't just make second homes. We make headlines as well.</p>
 </div>
 <div className="marquee-container py-20">

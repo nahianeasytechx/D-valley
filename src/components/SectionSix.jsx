@@ -7,7 +7,7 @@ import fwbwicon from "../assets/fwbwicon.png"
 const SectionSix = () => {
   return (
     <>
-      <div className={`bg-gradient-to-r from-[#05093ace] to-[#2a308c]`}>
+      <div className={`bg-gradient-to-r from-[#1e2c08] to-[#80bf1e]`}>
         <div className="container mx-auto  py-10">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-[45%] flex flex-col justify-center">
@@ -56,7 +56,7 @@ const SectionSix = () => {
               <div className="mt-24 flex justify-center lg:justify-end ">
                 <div className="">
                   <div>
-                    <img src={phonebg} alt="" className="w-80 lg:w-90 xl:w-[90%] absolute top-32 lg:top-52  right-20 md:right-55  lg:-right-[30px] xl:top-36 xl:-right-24 bg-[#424688] border border-white rounded-full rotate-infinite" />
+                    <img src={phonebg} alt="" className="w-80 lg:w-90 xl:w-[90%] absolute top-32 lg:top-52  right-20 md:right-55  lg:-right-[30px] xl:top-36 xl:-right-24 bg-[#3a5a07] border border-white rounded-full rotate-infinite" />
                   </div>
                   <div className="relative">
                     {" "}

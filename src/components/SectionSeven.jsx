@@ -22,7 +22,7 @@ const SectionSeven = () => {
 <div className="container mx-auto py-10">
   <div className="py-20">
       <h1 className="text-4xl text-center font-bold leading-10">
-        <span className='text-[#2a308c]'>Never</span> a dull moment
+        <span className='text-[#1e2c08]'>Never</span> a dull moment
     </h1>
 <p className='leading-10 text-center lg:text-2xl text-[#4e5253]'>In your story, your stay with us will be the most memorable chapter</p>
   </div>
