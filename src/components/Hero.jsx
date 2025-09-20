@@ -23,7 +23,7 @@ const Hero = () => {
         <input type="submit" value="search" className="bg-[#80bf1e] px-4 py-3 rounded-lg text-white" />
 <div className="my-4">
   <p className="text-xl">Offices:</p>
-  <div className="flex my-8 ">
+  <div className="flex gap-x-5 my-8 ">
 <div className="cursor-pointer flex flex-col justify-center items-center">
   <HiBuildingOffice2
     className="
@@ -33,7 +33,40 @@ const Hero = () => {
       transform hover:scale-135
     "
   />
-  <p className="text-xl pt-2">Dhanmondi</p>
+  <p className=" pt-2">Dhanmondi</p>
+</div>
+<div className="cursor-pointer flex flex-col justify-center items-center">
+  <HiBuildingOffice2
+    className="
+      text-[55px]
+      transition-all duration-300 ease-in-out
+      hover:bg-[#81bf1e6c] hover:rounded-full p-3
+      transform hover:scale-135
+    "
+  />
+  <p className=" pt-2">Shamoly</p>
+</div>
+<div className="cursor-pointer flex flex-col justify-center items-center">
+  <HiBuildingOffice2
+    className="
+      text-[55px]
+      transition-all duration-300 ease-in-out
+      hover:bg-[#81bf1e6c] hover:rounded-full p-3
+      transform hover:scale-135
+    "
+  />
+  <p className=" pt-2">Gulshan</p>
+</div>
+<div className="cursor-pointer flex flex-col justify-center items-center">
+  <HiBuildingOffice2
+    className="
+      text-[55px]
+      transition-all duration-300 ease-in-out
+      hover:bg-[#81bf1e6c] hover:rounded-full p-3
+      transform hover:scale-135
+    "
+  />
+  <p className=" pt-2">Uttara</p>
 </div>
 
   </div>
