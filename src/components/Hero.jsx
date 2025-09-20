@@ -8,6 +8,7 @@ import popup3 from "../assets/popup3.png";
 import popup4 from "../assets/popup 4.jpg"
 import popup5 from "../assets/popup5.jpg"
 import CounterPart from "./CounterPart";
+import { HiBuildingOffice2 } from "react-icons/hi2";
 Modal.setAppElement("#root"); // important for accessibility
 
 const Hero = () => {
@@ -17,10 +18,26 @@ const Hero = () => {
   const modalData = {
     "CO-Working Space": (
       <div>
-        input
-        <p>
-          Experience vibrant and well-equipped living spaces designed for today’s students.
-        </p>
+        <label>Location: </label>
+        <input type="search" placeholder="Find offices" className="px-2 py-3 border-2 border-gray-300 outline-none w-[55%] rounded-lg mr-5"/>
+        <input type="submit" value="search" className="bg-[#80bf1e] px-4 py-3 rounded-lg text-white" />
+<div className="my-4">
+  <p className="text-xl">Offices:</p>
+  <div className="flex my-8 ">
+<div className="cursor-pointer flex flex-col justify-center items-center">
+  <HiBuildingOffice2
+    className="
+      text-[55px]
+      transition-all duration-300 ease-in-out
+      hover:bg-[#81bf1e6c] hover:rounded-full p-3
+      transform hover:scale-135
+    "
+  />
+  <p className="text-xl pt-2">Dhanmondi</p>
+</div>
+
+  </div>
+</div>
       </div>
     ),
     "Co-Living for Professionals": (
