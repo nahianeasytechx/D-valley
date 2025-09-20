@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/Dvalley Logo Branding Plan.png";
 import logo2 from "../assets/Dvalley Logo Branding Plan.png";
 import { TfiAngleUp } from "react-icons/tfi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -43,8 +44,8 @@ const Navbar = () => {
         </span>
 
         {/* Dropdown */}
-        <div className="relative group">
-          <button className="font-medium flex items-center">
+        <div className=" relative group">
+          <button className="cursor-pointer font-medium flex items-center">
             Know More
             <TfiAngleUp className="mt-1 ms-2 transition-transform duration-300 group-hover:rotate-180" />
           </button>
@@ -52,24 +53,24 @@ const Navbar = () => {
           <div className="absolute top-full left-0 py-5 w-60 rounded-lg shadow-md z-50
                           scale-y-0 group-hover:scale-y-100 origin-top duration-300 
                           flex flex-col bg-white">
-            <a
-              href="#about"
-              className="hover:bg-[#81bf1e6c] hover:underline px-2 py-1 rounded leading-5"
-            >
-              About Us
-            </a>
-            <a
-              href="#team"
-              className="hover:bg-[#81bf1e6c] hover:underline px-2 py-1 rounded leading-5"
-            >
-              Our Team
-            </a>
-            <a
-              href="#partner"
-              className="hover:bg-[#81bf1e6c] hover:underline px-2 py-1 rounded leading-5"
-            >
-              Partner With Us
-            </a>
+<Link
+  to="/about"
+  className="hover:bg-[#81bf1e6c] hover:underline px-2 py-1 rounded leading-5"
+>
+  About Us
+</Link>
+<Link
+  to="/#team"
+  className="hover:bg-[#81bf1e6c] hover:underline px-2 py-1 rounded leading-5"
+>
+  Our Team
+</Link>
+<Link
+  to="/#partner"
+  className="hover:bg-[#81bf1e6c] hover:underline px-2 py-1 rounded leading-5"
+>
+  Partner With Us
+</Link>
           </div>
         </div>
       </div>

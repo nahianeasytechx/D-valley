@@ -4,7 +4,7 @@ import dailylist2 from "../assets/dailylist2.png"
 
 const SectionThree = () => {
   return (
-    <div className="bg-[#f7f7f7]">
+    <div className="">
       <div className="container mx-auto ">
         {/* Flex wrapper */}
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">

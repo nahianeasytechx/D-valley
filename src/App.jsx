@@ -4,6 +4,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import WhatsAppFloatingButton from "./components/WhatsAppFloatingButton";
+import About from "./pages/About";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           {/* Home Page   */}
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={ <About/> }/>
           {/* {Error Page} */}
           <Route path="*" element={<ErrorPage />} />
         </Routes>
