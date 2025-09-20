@@ -54,19 +54,19 @@ const Navbar = () => {
                           flex flex-col bg-white">
             <a
               href="#about"
-              className="hover:bg-[#60c3ae21] hover:underline px-2 py-1 rounded leading-5"
+              className="hover:bg-[#81bf1e6c] hover:underline px-2 py-1 rounded leading-5"
             >
               About Us
             </a>
             <a
               href="#team"
-              className="hover:bg-[#60c3ae21] hover:underline px-2 py-1 rounded leading-5"
+              className="hover:bg-[#81bf1e6c] hover:underline px-2 py-1 rounded leading-5"
             >
               Our Team
             </a>
             <a
               href="#partner"
-              className="hover:bg-[#60c3ae21] hover:underline px-2 py-1 rounded leading-5"
+              className="hover:bg-[#81bf1e6c] hover:underline px-2 py-1 rounded leading-5"
             >
               Partner With Us
             </a>
