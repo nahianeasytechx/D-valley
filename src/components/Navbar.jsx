@@ -5,7 +5,8 @@ import { TfiAngleUp } from "react-icons/tfi";
 
 const Navbar = () => {
   return (
-    <nav className="fixed md:static container max-w-[1025px] mx-auto flex justify-between py-6 sm:px-[70px] z-30">
+<>
+    <nav className="fixed md:static container lg:max-w-[1025px] mx-auto flex justify-between py-6 px-0 sm:px-[70px] z-30 overflow-x-hidden">
       {/* Mobile logo */}
       <div className="md:hidden">
         <a href="/">
@@ -73,6 +74,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+</>
   );
 };
 

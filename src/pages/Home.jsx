@@ -15,7 +15,8 @@ const Home = () => {
   return (
     <>
 
-      <Hero />
+<div className="overflow-x-hidden">
+        <Hero />
       <SectionOne/>
 <SectionTwo/>
 <SectionThree/>
@@ -24,6 +25,7 @@ const Home = () => {
 <SectionSix/>
 <SectionSeven/>
 <SectionEight/>
+</div>
 
     </>
   );

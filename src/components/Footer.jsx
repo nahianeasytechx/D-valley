@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div className="bg-[#232728]">
         <div className="container mx-auto">
-          <div class="flex justify-center space-x-4 py-8 border-b-2 border-green-400 border-rounded">
+          <div class="flex flex-wrap justify-center space-x-4 py-8 border-b-2 border-green-400 border-rounded">
             <button class="px-4 py-2 text-xl font-semibold rounded  cursor-pointer text-white focus:bg-[#2a308c]">
            Dhanmondi
             </button>
@@ -30,10 +30,10 @@ const Footer = () => {
           </div>
 
           <div className="py-36 flex flex-wrap">
-<div className="w-1/6">
-<img src={logo} alt="" className="w-[70%]" />
+<div className="w-full lg:w-1/6">
+<img src={logo} alt="" className="w-[50%] lg:w-[70%] py-5 lg:py-0" />
 </div>
-<div className="w-1/6">
+<div className="w-full md:w-1/6">
 <ul className="text-white font-bold text-xl space-y-5">
   <li className="hover:underline cursor-pointer">About Us</li>
   <li className="hover:underline cursor-pointer">Investors Relations</li>
@@ -41,7 +41,7 @@ const Footer = () => {
   <li className="hover:underline cursor-pointer">Media</li>
 </ul>
 </div>
-<div className="w-1/6">
+<div className="w-full lg:w-1/6">
 <ul className="text-white font-bold text-xl space-y-5">
   <li className="hover:underline cursor-pointer">Blogs</li>
   <li className="hover:underline cursor-pointer">FAQs Relations</li>
@@ -49,7 +49,7 @@ const Footer = () => {
   <li className="hover:underline cursor-pointer">House Rules</li>
 </ul>
 </div>
-<div className="w-1/6">
+<div className="w-full lg:w-1/6">
 <ul className="text-white font-bold text-xl space-y-5">
   <li className="hover:underline cursor-pointer">T&C</li>
   <li className="hover:underline cursor-pointer">Privacy Policy</li>
@@ -64,12 +64,12 @@ const Footer = () => {
 
 </ul>
 </div>
-<div className="w-1/6">
+<div className="w-full lg:w-1/6 my-3 lg:my-0">
 <div className="flex space-x-4 ">
-  <FaFacebook  className="text-4xl text-white cursor-pointer"/>
-  <FaLinkedin  className="text-4xl text-white  cursor-pointer"/>
-  <FaInstagramSquare  className="text-4xl text-white cursor-pointer"/>
-  <FaYoutube  className="text-4xl text-white cursor-pointer"/> 
+  <FaFacebook  className="text-2xl lg:text-4xl text-white cursor-pointer"/>
+  <FaLinkedin  className="text-2xl lg:text-4xl text-white  cursor-pointer"/>
+  <FaInstagramSquare  className="text-2xl lg:text-4xl text-white cursor-pointer"/>
+  <FaYoutube  className="text-2xl lg:text-4xl text-white cursor-pointer"/> 
 </div>
 </div>
           </div>
