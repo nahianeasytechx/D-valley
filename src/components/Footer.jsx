@@ -9,22 +9,22 @@ const Footer = () => {
       <div className="bg-[#232728]">
         <div className="container mx-auto">
           <div class="flex flex-wrap justify-center space-x-4 py-8 border-b-2 border-green-400 border-rounded">
-            <button class="px-4 py-2 text-xl font-semibold rounded  cursor-pointer text-white focus:bg-[#2a308c]">
+            <button class="px-4 py-2 text-xl font-semibold rounded  cursor-pointer text-white focus:bg-[#80bf1e]">
            Dhanmondi
             </button>
-            <button class="px-4 py-2 text-xl font-semibold rounded  cursor-pointer text-white focus:bg-[#2a308c]">
+            <button class="px-4 py-2 text-xl font-semibold rounded  cursor-pointer text-white focus:bg-[#80bf1e]">
               Mirpur
             </button>
-            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#2a308c]">
+            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#80bf1e]">
              Uttara
             </button>
-            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#2a308c]">
+            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#80bf1e]">
              Ghushan
             </button>
-            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#2a308c]">
+            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#80bf1e]">
              Banani
             </button>
-            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#2a308c]">
+            <button class="px-4 py-2 text-xl font-semibold  rounded cursor-pointer text-white focus:bg-[#80bf1e]">
              Paltan
             </button>
           </div>
