@@ -22,7 +22,7 @@ const SectionFive = () => {
           </div>
 
           {/* IMAGE BLOCK */}
-          <div className="py-10 lg:py-0 w-full lg:w-[45%] flex gap-x-2 order-2 lg:order-1">
+          <div className="py-10 lg:py-0 w-full lg:w-[45%] flex gap-x-10 order-2 lg:order-1">
             <div className="w-1/2">
               <img src={hostel1} alt="bestlife1.png" />
             </div>
