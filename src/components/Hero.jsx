@@ -95,11 +95,11 @@ const Hero = () => {
 
   return (
     <>
-      <div className="container relative mx-auto p-0 flex flex-wrap">
-        <div className="w-full lg:w-2/3">
+      <div className="container relative mx-auto p-0 flex flex-wrap gap-x-4">
+        <div className="w-full lg:w-[65%]">
           <BannerSlider />
         </div>
-        <div className="w-full lg:w-1/3 flex flex-col space-y-5">
+        <div className="mt-5 lg:mt-0 w-full lg:w-1/3 flex flex-col space-y-5">
           <Services
             img={popup5}
             description="Collaborate, innovate, and thrive with others"

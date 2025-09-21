@@ -21,14 +21,14 @@ const SectionSeven = () => {
   return (
 <div className="container mx-auto py-10">
   <div className="py-20">
-      <h1 className="text-4xl text-center font-bold leading-10">
+      <h1 className="text-[#0c0f3b] text-4xl text-center font-bold leading-10">
         <span className='text-[#80bf1e]'>Never</span> a dull moment
     </h1>
 <p className='leading-10 text-center lg:text-2xl text-[#4e5253]'>In your story, your stay with us will be the most memorable chapter</p>
   </div>
       <Slider {...settings}>
       {customerExperience.map((item) => (
-        <div key={item.id} className="relative h-[327px]">
+        <div key={item.id} className="relative h-[127px] lg:h-[327px]">
           {/* Background image */}
           <img
             src={item.img}
@@ -38,9 +38,9 @@ const SectionSeven = () => {
 
     <div className="opacity-0 hover:opacity-100 transition-all duration-300 group">
               {/* Black overlay */}
-          <div className=" lg:w-[95%] lg:h-[337px] absolute inset-0 bg-black/80 ">
+          <div className=" lg:w-[95%] lg:h-[337px] h-[127px] absolute inset-0 bg-black/80 lg:rounded-xl">
           </div>
-          <p className=' text-center ps-3 text-white text-sm xl:text-  absolute top-[50%] '>{item.overlay_text}</p>
+          <p className=' text-center ps-3 text-white text-xs xl:text-text-base  absolute top-[15%] lg:top-[50%] '>{item.overlay_text}</p>
     </div>
 
         </div>

@@ -21,14 +21,14 @@ export default function BannerSlider() {
           <img
             src={item.img}
             alt={item.title}
-            className="w-full  lg:w-[95%]  md:h-[600px] object-cover lg:rounded-xl"
+            className=" md:h-[600px] w-full  object-cover rounded-b-2xl lg:rounded-xl"
           />
 
           {/* Black overlay */}
-          <div className=" lg:w-[95%] absolute inset-0 bg-black/50 lg:rounded-xl"></div>
+          <div className="  absolute inset-0 bg-black/50  lg:rounded-xl"></div>
 
           {/* Text on top */}
-          <div className="absolute inset-0 flex flex-col justify-center px-4">
+          <div className="absolute px-10 inset-0 flex flex-col justify-center ">
             <h1 className="text-3xl md:text-5xl font-bold text-white">
               {item.title}
             </h1>

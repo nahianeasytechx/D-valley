@@ -11,7 +11,7 @@ const SectionSix = () => {
         <div className="container mx-auto  py-10">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-[45%] flex flex-col justify-center">
-              <h1 className="py-20 text-4xl md:text-4xl lg:text-5xl text-bold text-center lg:text-start font-bold">
+              <h1 className="py-20 text-[#0c0f3b] text-4xl md:text-4xl lg:text-5xl text-bold text-center lg:text-start font-bold">
                 Always have us
                 <br />
                 <span className="text-white">at your fingertips</span>
@@ -56,7 +56,7 @@ const SectionSix = () => {
               <div className="mt-24 flex justify-center  ">
                 <div className="">
                   <div>
-                    <img src={phonebg} alt="" className="w-75 md:w-80 lg:w-90 xl:w-[90%] absolute top-32 lg:top-52  right-20 md:right-55  lg:-right-[30px] xl:top-32 xl:right-5 bg-[#3a5a07] border border-white rounded-full rotate-infinite" />
+                    <img src={phonebg} alt="" className="w-75 md:w-80 lg:w-90 xl:w-[90%] absolute top-32 lg:top-52  right-24 md:right-55  lg:right-12 xl:top-32 xl:right-5 bg-[#3a5a07] border border-white rounded-full rotate-infinite" />
                   </div>
                   <div className="relative">
                     {" "}

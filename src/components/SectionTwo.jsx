@@ -38,7 +38,7 @@ const SectionTwo = () => {
           
           {/* h1 for mobile (above images) */}
           <div className="w-full order-1 lg:hidden">
-            <h1 className='text-2xl md:text-3xl text-center font-bold'>
+            <h1 className='text-[#0c0f3b] text-2xl md:text-3xl text-center font-bold'>
               Step into a room that has <br />
               from <span className='text-white'>room for everything</span>
             </h1>
@@ -67,7 +67,7 @@ const SectionTwo = () => {
   ref={textRef}
   className="hidden lg:flex w-[45%] py-5 flex-col justify-center items-start order-2 fade-in-element"
 >
-  <h1 className="text-2xl md:text-3xl font-bold">
+  <h1 className="text-[#0c0f3b] text-2xl md:text-3xl font-bold">
     Chill in a <span className="text-white">common area</span><br />
     that's anything but common
   </h1>

@@ -34,7 +34,7 @@ const Footer = () => {
 <img src={logo} alt="" className="w-[50%] lg:w-[70%] py-5 lg:py-0" />
 </div>
 <div className="w-full md:w-1/6">
-<ul className="text-white font-bold text-xl space-y-5">
+<ul className="text-white  text-xl space-y-5">
   <li className="hover:underline cursor-pointer">About Us</li>
   <li className="hover:underline cursor-pointer">Investors Relations</li>
   <li className="hover:underline cursor-pointer">Teams</li>
@@ -42,7 +42,7 @@ const Footer = () => {
 </ul>
 </div>
 <div className="w-full lg:w-1/6">
-<ul className="text-white font-bold text-xl space-y-5">
+<ul className="text-white  text-xl space-y-5">
   <li className="hover:underline cursor-pointer">Blogs</li>
   <li className="hover:underline cursor-pointer">FAQs Relations</li>
   <li className="hover:underline cursor-pointer">Refer and Earn</li>
@@ -50,7 +50,7 @@ const Footer = () => {
 </ul>
 </div>
 <div className="w-full lg:w-1/6">
-<ul className="text-white font-bold text-xl space-y-5">
+<ul className="text-white  text-xl space-y-5">
   <li className="hover:underline cursor-pointer">T&C</li>
   <li className="hover:underline cursor-pointer">Privacy Policy</li>
   <li className="hover:underline cursor-pointer">Contact Us</li>
@@ -58,7 +58,7 @@ const Footer = () => {
 </ul>
 </div>
 <div className="w-1/6">
-<ul className="text-white font-bold text-xl space-y-5">
+<ul className="text-white  text-xl space-y-5">
   <li className="hover:underline cursor-pointer">Partner With Us</li>
   <li className="hover:underline cursor-pointer">Cookie Policy</li>
 

@@ -32,7 +32,7 @@ const SectionFour = () => {
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">
           {/* Mobile heading */}
           <div className="w-full order-1 lg:hidden">
-            <h1 className="text-2xl md:text-3xl text-center font-bold">
+            <h1 className="text-[#0c0f3b] text-2xl md:text-3xl text-center font-bold">
               Chill in a <span className="text-[#80bf1e]">common area</span>
               <br />
               that's anything but common
@@ -57,7 +57,7 @@ const SectionFour = () => {
               transform transition-all duration-1000 ease-out
               ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-90"}`}
           >
-            <h1 className="text-2xl md:text-3xl font-bold">
+            <h1 className="text-[#0c0f3b] text-2xl md:text-3xl font-bold">
               Chill in a <span className="text-[#80bf1e]">common area</span>
               <br />
               that's anything but common
