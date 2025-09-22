@@ -6,7 +6,8 @@ import SectionOne from "./SectionOne";
 import SectionThree from "./SectionThree";
 import MapImg from "./MapImg";
 import AboutMembers from "./AboutMembers";
-import VerticalSlider from "./VerticalSlider";
+import AboutWhatSlider from "./AboutWhatSlider";
+
 // Utility function for accessibility
 function a11yProps(index) {
   return {
@@ -41,7 +42,7 @@ const AboutTabs = () => {
 
   return (
     <>
-      <div className="w-[60%] mx-auto flex justify-center py-5 border border-gray-50 rounded-full shadow-lg shadow-amber-950">
+      <div className="w-[60%] mx-auto flex justify-center py-2 border border-gray-50 rounded-full box-shadow ">
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs
             value={value}
@@ -61,7 +62,7 @@ const AboutTabs = () => {
               }}
             />
             <Tab
-              label="Item Two"
+              label="The What"
               {...a11yProps(1)}
               {...a11yProps(2)}
               sx={{
@@ -70,7 +71,7 @@ const AboutTabs = () => {
               }}
             />
             <Tab
-              label="Item Three"
+              label="The How"
               {...a11yProps(2)}
               {...a11yProps(2)}
               sx={{
@@ -88,7 +89,7 @@ const AboutTabs = () => {
       <AboutMembers/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-<VerticalSlider/>
+<AboutWhatSlider/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         Item Three Content

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
   return (
 <>
-<div className="bg-[#81bf1e4b]">
+<div>
     <div className="container mx-auto">
     <div className="py-20">
         <div className="flex">
