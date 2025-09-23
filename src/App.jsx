@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import WhatsAppFloatingButton from "./components/WhatsAppFloatingButton";
 import About from "./pages/About";
+import Team from "./pages/Team";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
           {/* Home Page   */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={ <About/> }/>
+          <Route path="/team" element={ <Team/> }/>
           {/* {Error Page} */}
           <Route path="*" element={<ErrorPage />} />
         </Routes>

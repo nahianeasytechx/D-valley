@@ -60,7 +60,7 @@ const Navbar = () => {
   About Us
 </Link>
 <Link
-  to="/#team"
+  to="/team"
   className="hover:bg-[#81bf1e6c] py-2 px-5   leading-5"
 >
   Our Team

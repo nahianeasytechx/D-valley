@@ -7,6 +7,7 @@ import SectionThree from "./SectionThree";
 import MapImg from "./MapImg";
 import AboutMembers from "./AboutMembers";
 import AboutWhatSlider from "./AboutWhatSlider";
+import AboutHow from "./AboutHow";
 
 // Utility function for accessibility
 function a11yProps(index) {
@@ -92,7 +93,7 @@ const AboutTabs = () => {
 <AboutWhatSlider/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        Item Three Content
+       <AboutHow/>
       </CustomTabPanel>
     </>
   );
