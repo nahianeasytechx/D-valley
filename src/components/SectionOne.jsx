@@ -6,7 +6,7 @@ import bestlife3 from "../assets/bestlife3.png";
 const SectionOne = () => {
   return (
     <div className="">
-      <div className="container mx-auto px-10 pt-5 md:pt-8 lg:pt-[129px]">
+      <div className="container mx-auto px-10 lg:px-5 pt-5 md:pt-8 lg:pt-[129px]">
         
         {/* Top section heading */}
         <h1 className='leading-[50px] lg:leading-[86px] text-[#0c0f3b] text-[30px] lg:text-[42px] font-bold text-center'>

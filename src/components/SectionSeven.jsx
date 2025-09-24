@@ -19,7 +19,7 @@ const SectionSeven = () => {
 
   };
   return (
-<div className="container mx-auto py-10">
+<div className="container mx-auto py-10 px-10 lg:px-5">
   <div className="py-20">
       <h1 className="text-[#0c0f3b] text-4xl text-center font-bold leading-10">
         <span className='text-[#80bf1e]'>Never</span> a dull moment

@@ -32,7 +32,7 @@ const SectionTwo = () => {
 
   return (
     <div className={`bg-[#80bf1e]`}>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-10 lg:px-5">
         {/* Flex wrapper */}
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">
           

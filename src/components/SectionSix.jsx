@@ -8,7 +8,7 @@ const SectionSix = () => {
   return (
     <>
       <div className={`bg-[#80bf1e]`}>
-        <div className="container mx-auto  py-10">
+        <div className="container mx-auto  py-10 px-10 lg:px-5">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-[45%] flex flex-col justify-center">
               <h1 className="py-20 text-[#0c0f3b] text-4xl md:text-4xl lg:text-5xl text-bold text-center lg:text-start font-bold">

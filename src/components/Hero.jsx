@@ -95,7 +95,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="container relative mx-auto lg:px-4 flex flex-wrap gap-x-4">
+      <div className="container relative mx-auto lg:px-5 flex flex-wrap gap-x-4">
         <div className="w-full lg:w-[65%]">
           <BannerSlider />
         </div>

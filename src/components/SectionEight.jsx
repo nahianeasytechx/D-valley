@@ -3,7 +3,7 @@ import { movingImages } from '../data/movingImages'
 
 const SectionEight = () => {
   return (
-<div className="container mx-auto py-10">
+<div className="container mx-auto py-10 px-10 lg:px-5">
 <div className="py-16">
     <h1 className='text-center text-[#0c0f3b] text-4xl font-bold leading-10'>The <span className='text-[#80bf1e]'>spotlight</span> on us</h1>
 <p className='text-center text-xl text-[#4e5253] leading-10'>We don't just make second homes. We make headlines as well.</p>
