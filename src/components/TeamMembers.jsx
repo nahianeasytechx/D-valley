@@ -18,8 +18,8 @@ const TeamMembers = () => {
             />
 
             {/* Default Card Content */}
-            <div className="p-4">
-              <h3 className="text-lg font-semibold">{name}</h3>
+            <div className="p-4  pt-12">
+              <h3 className="text-lg font-semibold text-[#80bf1e]">{name}</h3>
               <p className="text-gray-600 text-sm">{designation}</p>
             </div>
 
