@@ -68,8 +68,8 @@ const SectionTwo = () => {
   className="hidden lg:flex w-[45%] py-5 flex-col justify-center items-start order-2 fade-in-element"
 >
   <h1 className="text-[#0c0f3b] text-2xl md:text-3xl font-bold">
-    Chill in a <span className="text-white">common area</span><br />
-    that's anything but common
+      Step into a room that has  <span className="text-white"> room for everything</span><br />
+  
   </h1>
   <p className="text-start text-white text-lg mt-5">
     Nope, we don't try to pass off a few plastic chairs and a TV as a
