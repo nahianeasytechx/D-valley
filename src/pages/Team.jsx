@@ -25,7 +25,7 @@ const Team = () => {
           <div className="py-5">
             <h1 className="text-center text-3xl lg:text-6xl text-[#0c0f3b]">
               The Members of the{" "}
-              <span className="text-[#8be001] ">“Dreamers Valley” </span>
+              <span className="text-[#8be001] ">“Dreamers Valley Ltd.” </span>
             </h1>
             <p className="text-center py-4 px-20">
               Our team's full of undiscovered Da Vincis, aspiring master chefs,
