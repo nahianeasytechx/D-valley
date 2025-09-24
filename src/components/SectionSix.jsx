@@ -56,7 +56,7 @@ const SectionSix = () => {
               <div className="mt-24 flex justify-center  ">
                 <div className="">
                   <div>
-                    <img src={phonebg} alt="" className="w-75 md:w-80 lg:w-90 xl:w-[90%] absolute top-32 lg:top-52  right-24 md:right-55  lg:right-12 xl:top-32 xl:right-5 bg-[#3a5a07] border border-white rounded-full rotate-infinite" />
+                    <img src={phonebg} alt="" className="w-75 md:w-80 lg:w-90 xl:w-[90%] absolute top-32 lg:top-52  right-[13%] sm:right-[25%] md:right-55  lg:right-12 xl:top-32 xl:right-5 bg-[#3a5a07] border border-white rounded-full rotate-infinite" />
                   </div>
                   <div className="relative">
                     {" "}

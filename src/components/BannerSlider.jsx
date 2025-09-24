@@ -21,7 +21,7 @@ export default function BannerSlider() {
           <img
             src={item.img}
             alt={item.title}
-            className=" md:h-[600px] w-full  object-cover rounded-b-2xl lg:rounded-xl"
+            className=" md:h-[600px] w-full  object-cover  lg:rounded-xl"
           />
 
           {/* Black overlay */}

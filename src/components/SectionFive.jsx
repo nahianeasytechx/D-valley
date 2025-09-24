@@ -6,7 +6,7 @@ import hostel3 from "../assets/hostelpg-3.png";
 const SectionFive = () => {
   return (
     <div className="bg-[#f7f7f7]">
-      <div className="container mx-auto ">
+      <div className="container mx-auto px-10">
         
 
 

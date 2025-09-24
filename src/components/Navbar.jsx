@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
 <>
-    <nav className="fixed bg-white md:bg-transparent shadow-xl md:shadow-none md:static container  mx-auto flex  justify-between p-3 md:py-6   z-30">
+    <nav className="fixed w-full bg-white md:bg-transparent shadow-xl md:shadow-none md:static container  mx-auto flex  justify-between p-3 md:py-6   z-30">
       {/* Mobile logo */}
       <div className="md:hidden ">
         <a href="/">
@@ -66,7 +66,7 @@ const Navbar = () => {
   Our Team
 </Link>
 <Link
-  to="/#partner"
+  to="/partner-with-us"
   className="hover:bg-[#81bf1e6c] py-2  px-5  leading-5"
 >
   Partner With Us

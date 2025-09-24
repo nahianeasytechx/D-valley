@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
 
-<div className="overflow-x-hidden lg:overflow-x-visible">
+<div className="overflow-x-hidden">
         <Hero />
       <SectionOne/>
 <SectionTwo/>

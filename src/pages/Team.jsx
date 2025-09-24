@@ -6,13 +6,13 @@ import TeamMembers from "../components/TeamMembers";
 const Team = () => {
   return (
     <>
-      <div className="bg-linear-to-b from-[#c0fc5f54] to-white">
+      <div className="bg-[#c0fc5f36]">
         <div className="container mx-auto">
           <div className="py-20">
             <div className="flex">
               <Link to="/">
                 {" "}
-                <p className=" font-semibold hover:underline">Home</p>
+                <p className=" font-semibold hover:underline hover:text-[#80bf1e]">Home</p>
               </Link>
               <FaAngleRight className=" mt-1" />
               <Link to="/team">

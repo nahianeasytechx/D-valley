@@ -28,7 +28,7 @@ const SectionFour = () => {
 
   return (
     <div className="bg-[#80bf1e]">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-10">
         <div className="flex flex-wrap gap-x-10 py-12 md:py-16 lg:py-[120px]">
           {/* Mobile heading */}
           <div className="w-full order-1 lg:hidden">
