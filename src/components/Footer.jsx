@@ -66,7 +66,7 @@ const Footer = () => {
 </div>
 <div className="w-full lg:w-1/6 my-3 lg:my-0">
 <div className="flex space-x-4 ">
-  <FaFacebook  className="text-2xl lg:text-4xl text-white cursor-pointer"/>
+ <a href="https://www.facebook.com/dvalleybd" target="_blank" rel="noopener noreferrer"> <FaFacebook  className="text-2xl lg:text-4xl text-white cursor-pointer"/></a>
   <FaLinkedin  className="text-2xl lg:text-4xl text-white  cursor-pointer"/>
   <FaInstagramSquare  className="text-2xl lg:text-4xl text-white cursor-pointer"/>
   <FaYoutube  className="text-2xl lg:text-4xl text-white cursor-pointer"/> 

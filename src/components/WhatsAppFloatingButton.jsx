@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppFloatingButton({
-  phone = "+8801712345678",
+  phone = "+8801540791548",
   message = "Hi! I would like to chat.",
   size = "w-14 h-14 lg:w-20 lg:h-20", // default Tailwind size (56px)
   className = "",
