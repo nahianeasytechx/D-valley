@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed w-full bg-white md:bg-transparent shadow-sm md:shadow-none md:static container mx-auto flex justify-between p-3 md:py-6 z-30">
+      <nav className=" w-full bg-white  shadow-sm md:shadow-none md:static container mx-auto flex justify-between p-3 md:py-6 z-30">
         {/* Mobile logo */}
         <div className="md:hidden">
           <a href="/">
