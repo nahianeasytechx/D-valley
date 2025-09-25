@@ -62,12 +62,12 @@ const PartnerWithUs = () => {
             </p>
             <p className="text-[18px]  py-4">Read more about the plan:</p>
 
-            <div className="flex flex-wrap justify-between gap-4 mt-2">
-              <p className="flex items-center gap-2 text-base sm:flex-1 min-w-[150px]">
+            <div className="flex flex-wrap mt-2">
+              <p className="flex  md:items-center gap-2 text-base  min-w-[150px]">
                 <span className="text-2xl text-[#80bf1e]">
                   <BsBuildings />
                 </span>
-                For your building/plot:
+             For your building :
               </p>
               <button className="mt-2 sm:mt-0 flex items-center gap-2 py-2 px-3 border border-[#80bf1e] rounded-lg text-[#80bf1e] flex-shrink-0">
                 <span className="text-xl">
