@@ -81,9 +81,7 @@ const Navbar = () => {
         >
           {isOpen ? <RxCross1 /> : <FiMenu />}
         </button>
-      </nav>
-
-{/* Mobile nav container - ALWAYS mounted so we can animate max-height */}
+        {/* Mobile nav container - ALWAYS mounted so we can animate max-height */}
 <div
   className={`md:hidden w-full bg-white shadow-lg absolute top-16 z-30 overflow-hidden transition-all duration-500 ease-in-out ${
     isOpen
@@ -162,6 +160,9 @@ const Navbar = () => {
     </div>
   </div>
 </div>
+      </nav>
+
+
 
     </>
   );

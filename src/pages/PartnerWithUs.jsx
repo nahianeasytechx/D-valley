@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { FaAngleRight } from "react-icons/fa";
 import partner1 from "../assets/partner-with-us1.jpg";
@@ -34,7 +33,7 @@ const PartnerWithUs = () => {
             'You've come to the{" "}
             <span className="text-[#8be001] ">“right place” </span> , partner
           </h1>
-          <p className="leading-7 text-center lg:text-xl py-4 lg:px-20 2xl:px-56 ">
+          <p className="leading-7  text-center lg:text-xl py-4 lg:px-20 2xl:px-56 ">
             Whatever we've achieved in the past few years has been made possible
             due to the mutual support and cooperation of the people we proudly
             call our partners. If you too wish to make your property earn to the
@@ -44,7 +43,7 @@ const PartnerWithUs = () => {
           </p>
         </div>
         <div className="m-[72px] flex p-5 shadow-2xl rounded-3xl">
-          <div className="p-4 hidden lg:flex lg:flex-col lg:w-1/2 ">
+          <div className="p-4 hidden  lg:flex lg:flex-col lg:w-1/2 ">
             <h1
               className="py-3
                font-bold text-4xl text-[#0c0f3b] "
@@ -52,7 +51,7 @@ const PartnerWithUs = () => {
               Your people in the{" "}
               <span className="text-[#80bf1e]"> right care</span>
             </h1>
-            <p className="py-5 leading-7 text-xl text-[#4E5253]">
+            <p className="py-5 leading-7 text-sm sm:text-xl text-[#4E5253]">
               No matter what you're looking to lease out - an apartment, a
               house, an under-construction building, an existing hostel/PG or
               something else altogether, we have a plan for it. We can not only
@@ -62,19 +61,23 @@ const PartnerWithUs = () => {
             </p>
             <p className="text-[18px]  py-4">Read more about the plan:</p>
 
-            <div className="flex flex-wrap mt-2">
-              <p className="flex  md:items-center gap-2 text-base  min-w-[150px]">
+            <div className="flex  justify-between mt-2" >
+<div>
+                <p className="flex  md:items-center gap-2 text-base  min-w-[150px]">
                 <span className="text-2xl text-[#80bf1e]">
                   <BsBuildings />
                 </span>
              For your building :
               </p>
-              <button className="mt-2 sm:mt-0 flex items-center gap-2 py-2 px-3 border border-[#80bf1e] rounded-lg text-[#80bf1e] flex-shrink-0">
+</div>
+<div>
+                <button className="mt-2 sm:mt-0 flex items-center gap-2 py-2 px-3 border border-[#80bf1e] rounded-lg text-[#80bf1e] ">
                 <span className="text-xl">
                   <MdOutlineFileDownload />
                 </span>
                 Download the brochure
               </button>
+</div>
             </div>
 
             <br />
@@ -104,7 +107,7 @@ const PartnerWithUs = () => {
           <div className="w-full lg:w-1/2">
             <h1
               className="py-3
-               font-bold text-3xl text-center text-[#0c0f3b] lg:hidden"
+               font-bold text-2xl sm:text3xl text-center text-[#0c0f3b] lg:hidden"
             >
               Your property in the{" "}
               <span className="text-[#80bf1e]">your life</span>
@@ -123,14 +126,14 @@ const PartnerWithUs = () => {
             <div className="my-4 lg:hidden">
               <p className="text-[18px]">Read more about the plan:</p>
               <br />
-              <div className="flex justify-between">
+              <div className="lg:flex lg:justify-between flex flex-col justify-center  md:px-0">
                 <p className="flex gap-x-4 text-sm">
                   <span className="text-xl text-[#80bf1e] ">
                     <BsBuildings />{" "}
                   </span>
-                  For your building/plot :
+                  For your building/plot:
                 </p>
-                <button className="cursor-pointer flex  py-2 px-3 border border-[#80bf1e] rounded-lg text-[#80bf1e] text-sm">
+                <button className="mt-3 md:mt-0 cursor-pointer flex  py-2 px-3 border border-[#80bf1e] rounded-lg text-[#80bf1e] text-sm">
                   <span className="text-xl ">
                     <MdApartment />
                   </span>
@@ -138,14 +141,14 @@ const PartnerWithUs = () => {
                 </button>
               </div>
               <br />
-              <div className="flex justify-between">
+              <div className="lg:flex lg:justify-between flex flex-col justify-center  md:px-0">
                 <p className="flex gap-x-4 text-sm">
                   <span className="text-xl text-[#80bf1e]">
                     <BsBuildings />{" "}
                   </span>
                   For your Apartment:
                 </p>
-                <button className="cursor-pointer flex gap-x-2 py-2 px-3 border border-[#80bf1e] rounded-lg text-[#80bf1e] text-sm">
+                <button className="mt-2 md:mt-0 cursor-pointer flex gap-x-2 py-2 px-3 border border-[#80bf1e] rounded-lg text-[#80bf1e] text-sm">
                   <span className="text-xl ">
                     <MdApartment />
                   </span>
@@ -232,15 +235,15 @@ const PartnerWithUs = () => {
             <div className="my-4 lg:hidden">
               <p className="text-[18px]">Read more about the plan:</p>
               <br />
-              <div className="flex justify-between">
+              <div className="flex flex-col justify-center">
                 <p className="flex gap-x-4 mt-2 ">
-                  <span className=" text-[#80bf1e] text-2xl">
-                    <GiGraduateCap />{" "}
+                  <span className=" text-[#80bf1e] text-xl">
+                    <GiGraduateCap />
                   </span>
-                  For college hostels :
+                  For college hostels:
                 </p>
-                <button className="cursor-pointer flex  py-2 px-3 border border-[#80bf1e] rounded-lg text-[#80bf1e] text-sm">
-                  <span className="text-xl ">
+                <button className="mt-2 md:mt-0 cursor-pointer flex  py-2 px-3 border border-[#80bf1e] rounded-lg text-[#80bf1e] text-sm">
+                  <span className="text-xl lg:text-2xl ">
                     <FaDownload />
                   </span>
                   Download the brochure
