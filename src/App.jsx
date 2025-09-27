@@ -7,6 +7,7 @@ import WhatsAppFloatingButton from "./components/WhatsAppFloatingButton";
 import About from "./pages/About";
 import Team from "./pages/Team";
 import PartnerWithUs from "./pages/PartnerWithUs";
+import ExploreResidencies from "./pages/ExploreResidencies";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           {/* Home Page   */}
           <Route path="/" element={<Home />} />
+          <Route path="/explore-residencies" element={ <ExploreResidencies/> }/>
           <Route path="/about" element={ <About/> }/>
           <Route path="/team" element={ <Team/> }/>
           <Route path="/partner-with-us" element ={ <PartnerWithUs/> }/>

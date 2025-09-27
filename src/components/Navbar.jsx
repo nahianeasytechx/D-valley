@@ -29,15 +29,17 @@ const Navbar = () => {
 
         {/* Desktop nav links (unchanged) */}
         <div className="hidden md:flex mt-2 lg:mt-3 md:space-x-4">
+<Link to="/explore-residencies">
           <span
             className="text-sm md:text-base font-medium relative cursor-pointer 
-            after:content-[''] after:absolute after:left-0 after:bottom-[15px] 
+            after:content-[''] after:absolute after:left-0 after:bottom-[0px] 
             after:w-full after:h-[2px] after:bg-[#80bf1e] after:scale-x-0 
             hover:after:scale-x-100 after:transition-transform after:duration-300 
             after:origin-left "
           >
             Explore Residences
           </span>
+</Link>
 
           {/* Desktop dropdown */}
           <div className="relative group">
