@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
+import FilterResults from "./FilterResults";
 
 Modal.setAppElement("#root");
 
-const FilterModal = ({ isOpen, onClose, onSave }) => {
+const FilterModal = ({ isOpen, onClose, onSave, }) => {
   const [filters, setFilters] = useState({
     city: "",
     locality: "",
@@ -182,7 +183,7 @@ const FilterModal = ({ isOpen, onClose, onSave }) => {
             setFilters({
               city: "",
               locality: "",
-              budget: [5000, 20000],
+              budget: [5000, 50000],
               gender: "",
               preferredBy: "",
               occupancy: "",
@@ -208,13 +209,15 @@ export default function ResidentModal() {
   const [appliedFilters, setAppliedFilters] = useState(null);
 
   return (
-    <div className="p-10">
-      <button
+    <div className="">
+<div className="flex justify-end ">
+        <button
         onClick={() => setIsModalOpen(true)}
         className="bg-[#80bf1e] px-6 py-2 rounded-lg text-white"
       >
         Open Filters
       </button>
+</div>
 
       <FilterModal
         isOpen={isModalOpen}
@@ -222,14 +225,9 @@ export default function ResidentModal() {
         onSave={(filters) => setAppliedFilters(filters)}
       />
 
-      {appliedFilters && (
-        <div className="mt-5 p-4 border rounded-lg">
-          <h3 className="font-bold mb-2">Applied Filters:</h3>
-          <pre className="bg-gray-100 p-3 rounded">
-            {JSON.stringify(appliedFilters, null, 2)}
-          </pre>
-        </div>
-      )}
+      {/* Pass filters to another component */}
+      <FilterResults filters={appliedFilters} />
     </div>
   );
 }
+

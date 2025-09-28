@@ -7,7 +7,7 @@ import ResidentItems from '../components/ResidentItems';
 const ExploreResidencies = () => {
   return (
     <>
-<div className="container mx-auto px-10 pb-10">
+<div className="container mx-auto  lg:px-10 pb-10 ">
 <ResidenciesSlider/>
           <div className="flex">
             <Link to="/">
@@ -21,7 +21,7 @@ const ExploreResidencies = () => {
               </p>
             </Link>
           </div>
-     <div className="flex justify-end">   <ResidentModal/></div>
+     <div className="flex justify-end"> </div>
      <ResidentItems/>
 </div>
     </>
