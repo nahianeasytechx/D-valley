@@ -21,6 +21,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Single Occupancy",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 2,
@@ -32,6 +33,7 @@ export  const residencies = [
     gender: "Female",
     preferredBy: "Working Professional",
     occupancy: "Double Occupancy",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 3,
@@ -43,6 +45,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Dorm",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 4,
@@ -54,6 +57,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Dorm",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 5,
@@ -65,6 +69,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Dorm",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 6,
@@ -76,6 +81,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Single Occupancy",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 7 ,
@@ -87,6 +93,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Working Professional",
     occupancy: "Dorm",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 8,
@@ -98,6 +105,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Dorm",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 9,
@@ -109,6 +117,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Dorm",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 10,
@@ -120,6 +129,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Dorm",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 10,
@@ -131,6 +141,7 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Dorm",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
   {
     id: 11,
@@ -142,5 +153,6 @@ export  const residencies = [
     gender: "Male",
     preferredBy: "Student",
     occupancy: "Dorm",
+    address:"Sell Huq Park, Level 4,Shamoli ,Dhaka"
   },
 ];

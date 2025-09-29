@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Team from "./pages/Team";
 import PartnerWithUs from "./pages/PartnerWithUs";
 import ExploreResidencies from "./pages/ExploreResidencies";
+import ResidencyDetails from "./components/ResidencyDetails";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={ <About/> }/>
           <Route path="/team" element={ <Team/> }/>
           <Route path="/partner-with-us" element ={ <PartnerWithUs/> }/>
+          <Route path="/explore-residencies/:id" element={<ResidencyDetails/>}/>
           {/* {Error Page} */}
           <Route path="*" element={<ErrorPage />} />
         </Routes>

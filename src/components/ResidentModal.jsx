@@ -37,12 +37,13 @@ const FilterModal = ({ isOpen, onClose, onSave, }) => {
     <Modal
       isOpen={isOpen}
       onRequestClose={onClose}
+       
       className="bg-white p-6 rounded-xl shadow-xl max-w-lg mx-auto   relative"
       overlayClassName="fixed inset-0 bg-[#00000096] bg-opacity-50 flex justify-center items-start z-50"
     >
       <button
         onClick={onClose}
-        className="absolute top-2 right-2 text-gray-600 hover:text-black"
+        className="cursor-pointer absolute top-2 right-2 text-gray-600 hover:text-black"
       >
         ✕
       </button>
@@ -189,13 +190,13 @@ const FilterModal = ({ isOpen, onClose, onSave, }) => {
               occupancy: "",
             })
           }
-          className="text-green-500"
+          className="text-green-500 cursor-pointer"
         >
           Clear
         </button>
         <button
           onClick={handleSave}
-          className="bg-[#80bf1e] px-5 py-2 rounded-lg text-white"
+          className="bg-[#80bf1e] px-5 py-2 rounded-lg text-white cursor-pointer"
         >
           Save
         </button>

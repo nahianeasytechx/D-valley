@@ -137,6 +137,10 @@ input[type="range"].green-slider::-moz-range-thumb {
 .box-shadow{
 box-shadow:rgba(0, 0, 0, 0.1) 0px 2px 10px;
 }
+.slide .slick-slide{
+  border: 0;
+  outline: 0;
+}
 /* Large screen (>= 1024px) overrides */
 @media (min-width: 1024px) {
   .slick-dots {
