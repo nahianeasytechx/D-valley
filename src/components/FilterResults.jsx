@@ -34,7 +34,7 @@ export default function FilterResults({ filters }) {
               key={res.id}
               className="w-full border border-slate-100 rounded-lg shadow-sm bg-gray-50 flex"
             >
-<Link to={`/explore-residencies/${res.id}`}>
+<Link to={`/explore-residencies/${res.slug}`}>
               <img
                 src={res.image}
                 alt=""
@@ -42,7 +42,7 @@ export default function FilterResults({ filters }) {
               />
 </Link>
               <div className="p-4 flex-1">
-              <Link to={`/explore-residencies/${res.id}`}>
+              <Link to={`/explore-residencies/${res.slug}`}>
                 <h3 className="font-semibold">{res.name}</h3>
               </Link>
                 <p className="text-xs md:text-sm ">
@@ -103,11 +103,13 @@ export default function FilterResults({ filters }) {
 
               <input
                 type="tel"
+                 placeholder="Your mobile number"
                 className="w-full border px-3 py-2 rounded-lg"
               />
               <button
                 type="submit"
                 className="w-full bg-[#80bf1e] py-2 rounded-lg text-white"
+
               >
                 Confirm Visit
               </button>

@@ -2,12 +2,9 @@ import Box from "@mui/material/Box";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { useState } from "react";
-import SectionOne from "./SectionOne";
-import SectionThree from "./SectionThree";
-import MapImg from "./MapImg";
-import AboutMembers from "./AboutMembers";
-import AboutWhatSlider from "./AboutWhatSlider";
-import AboutHow from "./AboutHow";
+import StudentHousing from "./StudentHousing";
+import CoLivingForPro from "./CoLivingForPro";
+import ApartmentsRules from "./ApartmentsRules";
 
 // Utility function for accessibility
 function a11yProps(index) {
@@ -34,7 +31,7 @@ function CustomTabPanel(props) {
   );
 }
 
-const AboutTabs = () => {
+const HouseRulesTabs = () => {
   const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
@@ -43,7 +40,7 @@ const AboutTabs = () => {
 
   return (
     <>
-      <div className="w-[60%] mx-auto flex justify-center py-2 border border-gray-50 rounded-xl lg:rounded-full box-shadow ">
+      <div className="w-[60%] mx-auto flex  justify-center py-2 border border-gray-50 rounded-xl lg:rounded-full box-shadow ">
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs
             value={value}
@@ -62,7 +59,7 @@ const AboutTabs = () => {
             }}
           >
             <Tab
-              label="The Why"
+              label="Modern Student Housing"
               {...a11yProps(0)}
               {...a11yProps(2)}
               sx={{
@@ -71,7 +68,7 @@ const AboutTabs = () => {
               }}
             />
             <Tab
-              label="The What"
+              label="Co - Living For Professionals"
               {...a11yProps(1)}
               {...a11yProps(2)}
               sx={{
@@ -80,7 +77,7 @@ const AboutTabs = () => {
               }}
             />
             <Tab
-              label="The How"
+              label="Managed Apartments"
               {...a11yProps(2)}
               {...a11yProps(2)}
               sx={{
@@ -92,19 +89,16 @@ const AboutTabs = () => {
         </Box>
       </div>
       <CustomTabPanel value={value} index={0}>
-        <SectionOne />
-        <SectionThree />
-        <MapImg />
-        <AboutMembers />
+        <StudentHousing />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <AboutWhatSlider />
+        <CoLivingForPro />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        <AboutHow />
+        <ApartmentsRules />
       </CustomTabPanel>
     </>
   );
 };
 
-export default AboutTabs;
+export default HouseRulesTabs;

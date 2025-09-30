@@ -1,13 +1,17 @@
 import { Link, useParams } from "react-router-dom";
 import { residencies } from "../data/residencies";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaAngleRight } from "react-icons/fa6";
 export default function ResidencyDetails() {
   const tabItems = ["Occupancy", "Amenities", "Details"];
   const [active, setActive] = useState("Occupancy"); // default active
-  const { id } = useParams();
-  const residency = residencies.find((res) => res.id.toString() === id);
+const { slug } = useParams();
+const residency = residencies.find((res) => res.slug === slug);
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // scroll to top whenever this component loads
+  }, [slug]);
+  
   if (!residency) {
     return <p className="p-6">Residency not found.</p>;
   }
@@ -33,7 +37,7 @@ export default function ResidencyDetails() {
           <img
             src={residency.image}
             alt=""
-            className="mb-5 rounded-xl img-fluid"
+            className="mb-5 rounded-xl img-fluid w-full"
             loading="lazy"
           />
           <p>Starts From</p>
@@ -134,7 +138,7 @@ export default function ResidencyDetails() {
         <p className="leading-8">Here will be the detais of the House  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quia nemo cupiditate reprehenderit ab natus est deserunt adipisci necessitatibus laudantium accusamus doloribus atque quam molestias ea magni ex voluptates numquam.</p>
           </div>
 
-<Link>
+<Link to="/house-rules">
           <div className="my-3 py-5 px-5 flex justify-between border border-gray-300 rounded-xl">
             House Policy & Rules
             <FaAngleRight className="mt-1"/>

@@ -5,7 +5,7 @@ import how3 from "../assets/how3.avif"
 const AboutHow = () => {
   return (
   <>
-  <div className="container ">
+  <div className="container mx-auto">
     <div className="">
          
 <div className="flex p-5 shadow-2xl rounded-3xl">

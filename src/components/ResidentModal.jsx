@@ -204,7 +204,7 @@ const FilterModal = ({ isOpen, onClose, onSave, }) => {
     </Modal>
   );
 };
-
+ 
 export default function ResidentModal() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [appliedFilters, setAppliedFilters] = useState(null);
