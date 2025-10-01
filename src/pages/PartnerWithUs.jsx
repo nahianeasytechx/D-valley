@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Modal from "react-modal"
 import { FaAngleRight } from "react-icons/fa";
 import partner1 from "../assets/partner-with-us1.jpg";
 import partner2 from "../assets/partner-with-us2.jpg";
@@ -8,7 +9,15 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { MdApartment } from "react-icons/md";
 import { GiGraduateCap } from "react-icons/gi";
 import { FaDownload } from "react-icons/fa6";
+import { useEffect, useState } from "react";
+
+Modal.setAppElement("#root"); // keep accessibility 
 const PartnerWithUs = () => {
+  const [isModalOpen,setIsModalOpen]=useState(false);
+    useEffect(() => {
+      window.scrollTo(0, 0); // scroll to top whenever this component loads
+    }, []);
+    
   return (
     <div className="bg-gradient-to-b from-[#c0fc5f36] to-[#fff]">
       <div className="container mx-auto">
@@ -42,7 +51,7 @@ const PartnerWithUs = () => {
             you've come to the right place.
           </p>
         </div>
-        <div className="m-[72px] flex p-5 shadow-2xl rounded-3xl">
+        <div className="m-[72px] flex p-5 shadow-xl rounded-3xl">
           <div className="p-4 hidden  lg:flex lg:flex-col lg:w-1/2 ">
             <h1
               className="py-3
@@ -99,7 +108,9 @@ const PartnerWithUs = () => {
               <p className="mt-2 text-base">
                 Leave your details here for us to contact you :
               </p>
-              <button className=" cursor-pointer flex gap-x-2 py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
+              <button
+                 onClick={() => setIsModalOpen(true)}
+              className=" cursor-pointer flex gap-x-2 py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
                 Contact us
               </button>
             </div>
@@ -163,7 +174,9 @@ const PartnerWithUs = () => {
                 </p>
 
                 <div className="mx-auto mt-2">
-                  <button className="w-30 h-11 cursor-pointer   py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
+                  <button
+                    onClick={() => setIsModalOpen(true)}
+                  className="w-30 h-11 cursor-pointer   py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
                     Contact us
                   </button>
                 </div>
@@ -171,7 +184,7 @@ const PartnerWithUs = () => {
             </div>
           </div>
         </div>
-        <div className="m-[72px] flex p-5 shadow-2xl rounded-3xl">
+        <div className="m-[72px] flex p-5 shadow-xl rounded-3xl">
           <div className="p-4 hidden lg:flex lg:flex-col lg:w-1/2 ">
             <h1
               className="py-3
@@ -209,7 +222,9 @@ const PartnerWithUs = () => {
               <p className="mt-2 text-base">
                 Leave your details here for us to contact you :
               </p>
-              <button className=" cursor-pointer flex gap-x-2 py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
+              <button
+                onClick={() => setIsModalOpen(true)}
+              className=" cursor-pointer flex gap-x-2 py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
                 Contact us
               </button>
             </div>
@@ -259,7 +274,9 @@ const PartnerWithUs = () => {
                 </p>
 
                 <div className="mx-auto mt-2">
-                  <button className="w-30 h-11 cursor-pointer   py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
+                  <button
+                    onClick={() => setIsModalOpen(true)}
+                  className="w-30 h-11 cursor-pointer   py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
                     Contact us
                   </button>
                 </div>
@@ -267,7 +284,7 @@ const PartnerWithUs = () => {
             </div>
           </div>
         </div>
-        <div className="m-[72px] flex p-5 shadow-2xl rounded-3xl">
+        <div className="m-[72px] flex p-5 shadow-xl rounded-3xl">
           <div className="p-4 hidden lg:flex lg:flex-col lg:w-1/2 ">
             <h1
               className="py-3
@@ -288,7 +305,9 @@ const PartnerWithUs = () => {
               <p className="mt-2 text-base">
                 Leave your details here for us to contact you :
               </p>
-              <button className=" cursor-pointer flex gap-x-2 py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
+              <button
+                onClick={() => setIsModalOpen(true)}
+              className=" cursor-pointer flex gap-x-2 py-2 px-3 border  rounded-lg bg-[#80bf1e] text-white font-semibold">
                 Contact us
               </button>
             </div>
@@ -324,11 +343,54 @@ const PartnerWithUs = () => {
                     Contact us
                   </button>
                 </div>
+
+                
               </div>
             </div>
           </div>
         </div>
+        
       </div>
+     {/* Contact Modal */}
+        <Modal
+          isOpen={isModalOpen}
+          onRequestClose={() => setIsModalOpen(false)}
+          className="bg-white p-6 rounded-xl shadow-xl max-w-lg mx-auto relative"
+          overlayClassName="fixed inset-0 bg-black/50 flex justify-center items-center z-50"
+        >
+          <button
+            onClick={() => setIsModalOpen(false)}
+            className="absolute top-2 right-2 text-gray-500 hover:text-black"
+          >
+            ✕
+          </button>
+
+          <h2 className="text-2xl font-bold mb-4 text-[#0c0f3b]">Contact Us</h2>
+          <form className="space-y-4">
+            <input
+              type="text"
+              placeholder="Your Name"
+              className="w-full border px-3 py-2 rounded-lg"
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="w-full border px-3 py-2 rounded-lg"
+            />
+            <input
+              type="tel"
+              placeholder="Your Phone"
+              className="w-full border px-3 py-2 rounded-lg"
+            />
+
+            <button
+              type="submit"
+              className="w-full bg-[#80bf1e] text-white font-semibold py-2 rounded-lg hover:bg-[#6ea818] transition"
+            >
+              Submit
+            </button>
+          </form>
+        </Modal>
     </div>
   );
 };

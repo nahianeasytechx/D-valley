@@ -9,19 +9,19 @@ export default function FilterResults({ filters }) {
   const [selectedRes, setSelectedRes] = useState(null); // track which residency is clicked
 
   // Filtering logic
-  const filteredResidencies = filters
-    ? residencies.filter((res) => {
-        return (
-          (!filters.city || res.city === filters.city) &&
-          (!filters.locality || res.locality === filters.locality) &&
-          (!filters.gender || res.gender === filters.gender) &&
-          (!filters.preferredBy || res.preferredBy === filters.preferredBy) &&
-          (!filters.occupancy || res.occupancy === filters.occupancy) &&
-          res.budget >= filters.budget[0] &&
-          res.budget <= filters.budget[1]
-        );
-      })
-    : residencies;
+const filteredResidencies = filters
+  ? residencies.filter((res) => {
+      return (
+        (!filters.city || res.city.toLowerCase() === filters.city.toLowerCase()) &&
+        (!filters.locality || res.locality.toLowerCase() === filters.locality.toLowerCase()) &&
+        (!filters.gender || res.gender.toLowerCase() === filters.gender.toLowerCase()) &&
+        (!filters.preferredBy || res.preferredBy.toLowerCase() === filters.preferredBy.toLowerCase()) &&
+        (!filters.occupancy || res.occupancy.toLowerCase() === filters.occupancy.toLowerCase()) &&
+        res.budget >= filters.budget[0] &&
+        res.budget <= filters.budget[1]
+      );
+    })
+  : residencies;
 
   return (
     <div className="mt-6 px-2 lg:pl-0 w-[100%]">

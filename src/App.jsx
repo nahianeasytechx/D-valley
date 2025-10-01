@@ -10,6 +10,8 @@ import PartnerWithUs from "./pages/PartnerWithUs";
 import ExploreResidencies from "./pages/ExploreResidencies";
 import ResidencyDetails from "./components/ResidencyDetails";
 import HouseRules from "./pages/HouseRules";
+import InvestorRelations from "./pages/InvestorRelations";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <>
@@ -24,6 +26,8 @@ function App() {
           <Route path="/partner-with-us" element ={ <PartnerWithUs/> }/>
          <Route path="/explore-residencies/:slug" element={<ResidencyDetails />} />
           <Route path ="/house-rules" element={<HouseRules/>}/>
+          <Route path="/investor-relations" element={ <InvestorRelations/> }/>
+          <Route path ="/contact" element={<Contact/>}/>
           {/* {Error Page} */}
           <Route path="*" element={<ErrorPage />} />
         </Routes>

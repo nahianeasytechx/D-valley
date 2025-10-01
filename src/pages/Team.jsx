@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaAngleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import TeamMembers from "../components/TeamMembers";
 
 const Team = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0); // scroll to top whenever this component loads
+    }, []);
+    
   return (
     <>
       <div className="bg-[#c0fc5f36]">

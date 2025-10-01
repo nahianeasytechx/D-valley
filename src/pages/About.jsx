@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AboutTabs from '../components/AboutTabs'
 import { FaAngleRight } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 const About = () => {
+      useEffect(() => {
+        window.scrollTo(0, 0); // scroll to top whenever this component loads
+      }, []);
   return (
 <>
 <div>

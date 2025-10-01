@@ -3,7 +3,7 @@ import BannerSlider from "./BannerSlider";
 import Services from "./Services";
 import Modal from "react-modal";
 import popup1 from "../assets/popup1.png";
-import popup2 from "../assets/popup2.png";
+import popup2 from "../assets/valuation.jpg";
 import popup3 from "../assets/popup3.png";
 import popup4 from "../assets/popup 4.jpg"
 import popup5 from "../assets/popup5.jpg"
@@ -18,9 +18,11 @@ const Hero = () => {
   const modalData = {
     "CO-Working Space": (
       <div>
-        <label>Location: </label>
-        <input type="search" placeholder="Find offices" className="px-2 py-3 border-2 border-gray-300 outline-none w-[55%] rounded-lg mr-5"/>
+<form action="" className="flex">
+          <label className="mt-3 mr-1">Location: </label>
+        <input type="search" placeholder="Find offices" className="px-1 py-3 border-2 border-gray-300 outline-none w-[55%] rounded-lg mr-5"/>
         <input type="submit" value="search" className="bg-[#80bf1e] px-4 py-3 rounded-lg text-white" />
+</form>
 <div className="my-4">
   <p className="text-xl">Offices:</p>
   <div className="flex gap-x-5 my-8 ">
@@ -109,7 +111,7 @@ const Hero = () => {
           <Services
             img={popup4}
             description="Chill hostel-style residences that are close to your office.Co-living for Professional"
-            title="Co-Living for Professionals"
+            title="Co-Living "
             onClick={() => setSelectedService("Co-Living for Professionals")}
           />
           <Services
@@ -119,9 +121,9 @@ const Hero = () => {
             onClick={() => setSelectedService("Modern Student Housing")}
           />
           <Services
-            img={popup3}
-            description="modern-studentFully-furnished spaces with all essential amenities and zero capital investment"
-            title="Managed Apartment"
+            img={popup2}
+            description="Dvalley is valued as a fast-growing proptech company, reflecting strong market demand and investor confidence in its innovative housing solutions."
+            title="Dvalley Valuation"
             onClick={() => setSelectedService("Modern Student Housing")}
           />
         </div>

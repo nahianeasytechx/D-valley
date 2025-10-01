@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HouseRulesTabs from '../components/HouseRulesTabs'
 import { FaAngleRight } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const HouseRules = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0); // scroll to top whenever this component loads
+    }, []);
   return (
 <>
 <div className="container mx-auto">
